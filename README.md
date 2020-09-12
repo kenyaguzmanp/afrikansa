@@ -26,14 +26,26 @@ You should be able to run your project in the port [8080](http://localhost:8080/
 
 ## Sections
 
+### Hero
+
 ![hero](./images/Hero.png)
+
+### Navigation
 
 ![navigation](./images/Navigation.png)
 
+### Our project
+
 ![our project section](./images/our_project.png)
+
+### Our client
 
 ![our client](./images/our_client.png)
 
+### What we do
+
 ![what we do section](./images/what_we_do.png)
+
+### Footer
 
 ![footer](./images/footer.png)
