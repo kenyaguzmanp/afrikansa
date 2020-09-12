@@ -23,3 +23,9 @@ npm start
 ```
 
 You should be able to run your project in the port [8080](http://localhost:8080/)
+
+## Rules
+
+- We will work from the **develop** branch
+- Each collaborator should work in a **separate branch** from develop
+- Make sure you wrap the sections in a`<div>` tag and give them an **id**
