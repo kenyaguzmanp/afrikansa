@@ -23,3 +23,17 @@ npm start
 ```
 
 You should be able to run your project in the port [8080](http://localhost:8080/)
+
+## Sections
+
+![hero](./images/Hero.png)
+
+![navigation](./images/Navigation.png)
+
+![our project section](./images/our_project.png)
+
+![our client](./images/our_client.png)
+
+![what we do section](./images/what_we_do.png)
+
+![footer](./images/footer.png)
