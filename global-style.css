@@ -20,10 +20,12 @@ html {
 .hero{
     display: flex;
     flex-direction: column;
+    background: linear-gradient(0deg, #98C3E8 8.84%, rgba(152, 195, 232, 0.2) 31.12%);
+    /* opacity: 0.2; */
+    height: 768px;
 }
 .navigation {
-    margin: 83px;
-    margin-top:40px;
+    margin: 40px 83px 45px 83px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +71,40 @@ html {
     height: 2.6px;
     background-color: var(--Blue_03);
 }
-
+.hero-down{
+    margin-left: 212px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1163px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-title{
+    font-family: Galien;
+    font-size: 64px;
+    line-height: 74px;
+    width: 550px;
+}
+.hero-p{
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    width: 425px;
+}
+.buttoninactive{
+    width: 220px;
+    height: 56px;
+    background-color: var(--Blue_04);
+    box-shadow:  5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+}
+.hero-img {
+    position: relative;
+    align-items: flex-end;
+}
 @media (max-width: 1366px) {
     .homepage {
         width: 100%;
