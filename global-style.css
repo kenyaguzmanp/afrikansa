@@ -111,4 +111,29 @@ html {
         margin:auto;
     }
 }
-
+.our-project {
+    display: flex;
+    flex-direction: column;
+}
+.repositorio-title-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;    
+}
+.our-project-title {
+    width: 227px;
+    font-family: Gilroy;
+    font-size: 36px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+}
+.our-project-p {
+    width: 540px;
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #1F3F68;
+    opacity: 0.6;
+}
