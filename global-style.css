@@ -21,7 +21,7 @@ html {
     display: flex;
     flex-direction: column;
 }
-.header{
+.navigation {
     margin: 83px;
     margin-top:40px;
     display: flex;
