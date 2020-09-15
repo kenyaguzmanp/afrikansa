@@ -152,7 +152,7 @@ html {
     height: 417px;
 }
 .medium-title {
-    margin: 5% 5% -1.5% 0;
+    margin: 5% 5% -1.5% 7%;
     font-family: Gilroy;
     font-size: 28px;
     line-height: 46px;
@@ -160,7 +160,7 @@ html {
     color: #FFFFFF;
 }
 .medium-title-p {
-    margin-right: 5%;
+    margin: 2% 5% 0 7%;
     font-family: Gilroy;
     font-size: 16px;
     line-height: 46px;
@@ -178,7 +178,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
     background-image: url(Mask\ Group\ 2.png);
     width: 422px;
     height: 417px;
@@ -187,7 +187,7 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: flex-start;
     background-image: url(Mask\ Group\ 3.png);
     width: 422px;
     height: 417px;
