@@ -1,0 +1,38 @@
+:root {
+  /************************/
+  /*****          *********/
+  /*    GLOBAL VARIABLES  */
+  /*****          ********/
+  /************************/
+
+  /* font sizes */
+  --extraBigFontSize: 64px;
+  --bigFontSize: 36px;
+  --mediumFontSize: 28px;
+  --regularFontSize: 20px;
+  --smallFontSize: 16px;
+  --extraSmallFontSize: 14px;
+
+  /* colors */
+  --blue_01: #1f3f68;
+  --blue_02: #316099;
+  --blue_03: #356ead;
+  --blue_04: #5a98d0;
+  --blue_05: #98c3e8;
+  --white: #ffffff;
+
+  /* fonts */
+  --fontCormorant: 'Cormorant Infant', serif;
+  --fontRoboto: 'Roboto', sans-serif;
+}
+/************************/
+/*****          *********/
+/*    GLOBAL CLASSES   */
+/*****          ********/
+/************************/
+
+/* titles */
+
+/* copies */
+
+/* buttons */
