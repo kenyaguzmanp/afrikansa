@@ -12,7 +12,7 @@ html {
     --ww:linear-gradient(238.37deg, #FFF8E1 0.54%, #FFCC80 88.49%);
     --www:linear-gradient(180deg, #EB5757 0%, #872727 100%);
     --wwww:linear-gradient(180deg, #AF6CED 0%, #5E199D 100%);
-    --shadow: 5px 20px 50px rgba(16,112,177,0.2);
+    --shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     --ddddd:0px 4px 4px rgba(0, 0, 0, 0.25);
     --ssssssssss: 0px 0px 200px rgba(49, 96, 153, 0.4);
 }
@@ -120,6 +120,7 @@ html {
 }
 .what-we-do-text{
     top: 0px;
+    align-self: flex-start;
     position: absolute;
     width: 300px;
 }
@@ -139,7 +140,26 @@ html {
     align-items: flex-end;
     
 }
+.img {
+    height: ;
+    margin-left: 26px;
+    margin-bottom: 56px;
+}
+
+.img1{
+    margin-left: 30px;
+    margin-bottom: 51px;
+}
+
+.img2{
+    margin-left: 52px;
+    margin-bottom: 56px;
+}
+
 .group4  {
+    position: relative;
+    box-shadow: var(--shadow);
+    border-radius: 10px;
     margin: 0px;
     padding: 48px;
     display: flex;
@@ -147,9 +167,14 @@ html {
     align-items: flex-start;
 }
 .group4-1{
+    padding-top: 0px;
     margin-bottom: 100px;
 }
+.group4-0{
+    margin: 0px 80px;
+}
 .titulo-group4{
+    margin: 0px 0px 16px 0px;
     width: 257px;
     font-family: gilroy;
     font-size: 20px;
@@ -157,6 +182,7 @@ html {
     color: var(--Blue_01);
 }
 .p-group4{
+    margin-bottom: 32px;
     width: 284px;
     font-family: gilroy;
     font-size: 16px;
