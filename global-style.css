@@ -12,6 +12,9 @@ html {
     --ww:linear-gradient(238.37deg, #FFF8E1 0.54%, #FFCC80 88.49%);
     --www:linear-gradient(180deg, #EB5757 0%, #872727 100%);
     --wwww:linear-gradient(180deg, #AF6CED 0%, #5E199D 100%);
+    --shadow: 5px 20px 50px rgba(16,112,177,0.2);
+    --ddddd:0px 4px 4px rgba(0, 0, 0, 0.25);
+    --ssssssssss: 0px 0px 200px rgba(49, 96, 153, 0.4);
 }
 .homepage {
     width: 1366px;
