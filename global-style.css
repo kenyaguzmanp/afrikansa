@@ -23,8 +23,7 @@ html {
 .hero{
     display: flex;
     flex-direction: column;
-    background: linear-gradient(0deg, rgba(32, 75, 112, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
-    /* opacity: 0.2; */
+    background: linear-gradient(0deg, rgba(152, 195, 232, 0.2) 8.84%, rgba(152, 195, 232, 0) 31.12%);
     height: 768px;
 }
 .navigation {
