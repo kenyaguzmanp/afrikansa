@@ -83,10 +83,3 @@
   text-decoration: none;
   justify-content: space-between;
 }
-
-@media (max-width: 1366px) {
-  .homepage {
-    width: 100%;
-    margin: auto;
-  }
-}
