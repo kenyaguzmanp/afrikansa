@@ -1,81 +1,81 @@
 .our-project {
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .container-our-project {
-    margin: 10% 0 10% -9%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 860px;    
+  margin: 10% 0 10% -9%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 860px;
 }
 .secundary-title2 {
-    font-family: Gilroy;
-    font-size: 36px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
+  font-family: Gilroy;
+  font-size: 36px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
 }
 .secundary-title2-p {
-    width: 540px;
-    font-family: Gilroy;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: #1F3F68;
-    opacity: 0.6;
+  width: 540px;
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1f3f68;
+  opacity: 0.6;
 }
 .background-secondary-title1 {
-    margin: 0 0 10% 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-end;
-    background-image: url(Mask\ Group\ 1.png);
-    width: 940px;
-    height: 417px;
+  margin: 0 0 10% 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(Mask\Group\1png);
+  width: 940px;
+  height: 417px;
 }
 .medium-title {
-    margin: 5% 5% -1.5% 7%;
-    font-family: Gilroy;
-    font-size: 28px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
+  margin: 5% 5% -1.5% 7%;
+  font-family: Gilroy;
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
 }
 .medium-title-p {
-    margin: 2% 5% 0 7%;
-    font-family: Gilroy;
-    font-size: 16px;
-    line-height: 46px;
-    letter-spacing: 0.05em;
-    color: #FFFFFF;
-    opacity: 0.8;
+  margin: 2% 5% 0 7%;
+  font-family: Gilroy;
+  font-size: 16px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+  opacity: 0.8;
 }
 .background-secondary-title2y3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 940px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 940px;
 }
 .background-secondary-title2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-image: url(Mask\ Group\ 2.png);
-    width: 422px;
-    height: 417px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url(Mask\Group\2png);
+  width: 422px;
+  height: 417px;
 }
 .background-secondary-title3 {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    background-image: url(Mask\ Group\ 3.png);
-    width: 422px;
-    height: 417px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url(Mask\Group\3png);
+  width: 422px;
+  height: 417px;
 }
