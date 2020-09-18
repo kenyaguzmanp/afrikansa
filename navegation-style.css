@@ -11,6 +11,7 @@
   width: 48px;
   height: 48px;
 }
+/* TODO: this will be replace since it should be a logo image as an svg */
 .Ellipse {
   position: absolute;
   top: 16.67%;

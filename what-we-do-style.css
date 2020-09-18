@@ -1,14 +1,14 @@
 .what-we-do {
   padding-top: 12px;
   margin: 180px 213px;
-  position: relative;
+  position: relative; /* TODO: REMOVE!!!! */
   display: flex;
   flex-direction: row;
 }
 .what-we-do-text {
-  top: 0px;
+  top: 0px; /* TODO: REMOVE!!!! */
   align-self: flex-start;
-  position: absolute;
+  position: absolute; /* TODO: REMOVE!!!! */
   width: 300px;
 }
 .what-we-do-left {
@@ -26,23 +26,27 @@
   align-items: flex-end;
 }
 .img {
+  /* TODO: change class name to other more explicit */
   /* height: ; */
   margin-left: 26px;
   margin-bottom: 56px;
 }
 
 .img1 {
+  /* TODO: change class name to other more explicit */
   margin-left: 30px;
   margin-bottom: 51px;
 }
 
 .img2 {
+  /* TODO: change class name to other more explicit */
   margin-left: 52px;
   margin-bottom: 56px;
 }
 
 .group4 {
-  position: relative;
+  /* TODO: change class name to other more explicit */
+  position: relative; /* TODO: REMOVE!!!! */
   box-shadow: var(--shadow);
   border-radius: 10px;
   margin: 0px;
@@ -52,32 +56,37 @@
   align-items: flex-start;
 }
 .group4-1 {
+  /* TODO: change class name to other more explicit */
   padding-top: 0px;
   margin-bottom: 100px;
 }
 .group4-0 {
+  /* TODO: change class name to other more explicit */
   margin: 0px 80px;
 }
 .titulo-group4 {
+  /* TODO: change class name to other more explicit */
   margin: 0px 0px 16px 0px;
   width: 257px;
-  font-family: gilroy;
-  font-size: 20px;
+  font-family: gilroy; /* TODO: replace with font variable */
+  font-size: 20px; /* TODO: replace with font size variable */
   line-height: 30px;
   color: var(--blue_01);
 }
 .p-group4 {
+  /* TODO: change class name to other more explicit */
   margin-bottom: 32px;
   width: 284px;
-  font-family: gilroy;
-  font-size: 16px;
+  font-family: gilroy; /* TODO: replace with font variable */
+  font-size: 16px; /* TODO: replace with font size variable */
   line-height: 26px;
   color: var(--blue_01);
 }
 .anchor-group4 {
+  /* TODO: change class name to other more explicit */
   width: 123px;
-  font-family: gilroy;
-  font-size: 14px;
+  font-family: gilroy; /* TODO: replace with font variable */
+  font-size: 14px; /* TODO: replace with font size variable */
   line-height: 30px;
   color: var(--blue_01);
   text-decoration: none;
