@@ -1,5 +1,5 @@
 .our-project {
-    margin: auto;
+    margin: 0 0 20% 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,4 +78,14 @@
     background-image: url(Mask\ Group\ 3.png);
     width: 422px;
     height: 417px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    Width:1270px;
+    Height:869px;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
 }
