@@ -21,9 +21,29 @@
   --blue_05: #98c3e8;
   --white: #ffffff;
 
+  /* gradients */
+  --ee: linear-gradient(183.81deg, #42a5f5 -3.62%, #1565c0 88.96%);
+  --eee: linear-gradient(183.81deg, #98d0fc -3.62%, #3481d7 88.96%);
+  --oo: linear-gradient(
+    180.99deg,
+    rgba(255, 255, 255, 0) 6.19%,
+    rgba(0, 0, 0, 0.15) 102.42%
+  );
+  --ooo: linear-gradient(
+    180.99deg,
+    rgba(255, 255, 255, 0) 6.19%,
+    rgba(100, 181, 246, 0.6) 103.09%
+  );
+  --ww: linear-gradient(238.37deg, #fff8e1 0.54%, #ffcc80 88.49%);
+  --www: linear-gradient(180deg, #eb5757 0%, #872727 100%);
+  --wwww: linear-gradient(180deg, #af6ced 0%, #5e199d 100%);
+  --shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  --ddddd: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  --ssssssssss: 0px 0px 200px rgba(49, 96, 153, 0.4);
+
   /* fonts */
-  --fontCormorant: 'Cormorant Infant', serif;
-  --fontRoboto: 'Roboto', sans-serif;
+  --fontCormorant: 'Cormorant Infant', serif; /* Galien */
+  --fontRoboto: 'Roboto', sans-serif; /* Gilroy */
 }
 /************************/
 /*****          *********/
@@ -36,21 +56,3 @@
 /* copies */
 
 /* buttons */
-html {
-    --Blue_01:#1F3f68;
-    --Blue_02:#316099;
-    --Blue_03:#356EAD;
-    --Blue_04:#5A98D0;
-    --Blue_05:#98C3E8;
-    --white:#FFFFFF;
-    --ee:linear-gradient(183.81deg, #42A5F5 -3.62%, #1565C0 88.96%);
-    --eee:linear-gradient(183.81deg, #98D0FC -3.62%, #3481D7 88.96%);
-    --oo:linear-gradient(180.99deg, rgba(255, 255, 255, 0) 6.19%, rgba(0, 0, 0, 0.15) 102.42%);
-    --ooo:linear-gradient(180.99deg, rgba(255, 255, 255, 0) 6.19%, rgba(100, 181, 246, 0.6) 103.09%);
-    --ww:linear-gradient(238.37deg, #FFF8E1 0.54%, #FFCC80 88.49%);
-    --www:linear-gradient(180deg, #EB5757 0%, #872727 100%);
-    --wwww:linear-gradient(180deg, #AF6CED 0%, #5E199D 100%);
-    --shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
-    --ddddd:0px 4px 4px rgba(0, 0, 0, 0.25);
-    --ssssssssss: 0px 0px 200px rgba(49, 96, 153, 0.4);
-}
