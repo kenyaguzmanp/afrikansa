@@ -14,18 +14,20 @@
   width: 860px;
 }
 .secundary-title2 {
-  font-family: Gilroy;
-  font-size: 36px;
+  /* TODO: change class name to other more explicit */
+  font-family: Gilroy; /* TODO: replace with font variable */
+  font-size: 36px; /* TODO: replace with font size variable */
   letter-spacing: 0.05em;
-  color: #1f3f68;
+  color: #1f3f68; /* TODO: replace with color variable */
 }
 .secundary-title2-p {
+  /* TODO: change class name to other more explicit */
   width: 540px;
-  font-family: Gilroy;
-  font-size: 16px;
+  font-family: Gilroy; /* TODO: replace with font variable */
+  font-size: 16px; /* TODO: replace with font size variable */
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #1f3f68;
+  color: #1f3f68; /* TODO: replace with color variable */
   opacity: 0.6;
 }
 .background-secondary-title1 {
@@ -34,48 +36,51 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  background-image: url(Mask\Group\1png);
+  background-image: url(mask\group\1png); /* TODO: REPLACE IMAGE NAMES WITH NO SPACES!!! 🔥 😡 */
   width: 940px;
   height: 417px;
 }
 .medium-title {
   margin: 5% 5% -1.5% 7%;
-  font-family: Gilroy;
-  font-size: 28px;
+  font-family: Gilroy; /* TODO: replace with font variable */
+  font-size: 28px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #ffffff; /* TODO: replace with color variable */
 }
 .medium-title-p {
   margin: 2% 5% 0 7%;
-  font-family: Gilroy;
-  font-size: 16px;
+  font-family: Gilroy; /* TODO: replace with font variable */
+  font-size: 16px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #ffffff; /* TODO: replace with color variable */
   opacity: 0.8;
 }
 .background-secondary-title2y3 {
+  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 940px;
 }
 .background-secondary-title2 {
+  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url(Mask\Group\2png);
+  background-image: url(mask\group\2png); /* TODO: REPLACE IMAGE NAMES WITH NO SPACES!!! 🔥 😡 */
   width: 422px;
   height: 417px;
 }
 .background-secondary-title3 {
+  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url(Mask\Group\3png);
+  background-image: url(mask\group\3png); /* TODO: REPLACE IMAGE NAMES WITH NO SPACES!!! 🔥 😡 */
   width: 422px;
   height: 417px;
 }
