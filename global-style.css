@@ -22,23 +22,32 @@
   --white: #ffffff;
 
   /* gradients */
+  /* TODO: change variable name */
   --ee: linear-gradient(183.81deg, #42a5f5 -3.62%, #1565c0 88.96%);
+  /* TODO: change variable name */
   --eee: linear-gradient(183.81deg, #98d0fc -3.62%, #3481d7 88.96%);
+  /* TODO: change variable name */
   --oo: linear-gradient(
     180.99deg,
     rgba(255, 255, 255, 0) 6.19%,
     rgba(0, 0, 0, 0.15) 102.42%
   );
+  /* TODO: change variable name */
   --ooo: linear-gradient(
     180.99deg,
     rgba(255, 255, 255, 0) 6.19%,
     rgba(100, 181, 246, 0.6) 103.09%
   );
+  /* TODO: change variable name */
   --ww: linear-gradient(238.37deg, #fff8e1 0.54%, #ffcc80 88.49%);
+  /* TODO: change variable name */
   --www: linear-gradient(180deg, #eb5757 0%, #872727 100%);
+  /* TODO: change variable name */
   --wwww: linear-gradient(180deg, #af6ced 0%, #5e199d 100%);
   --shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  /* TODO: change variable name */
   --ddddd: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* TODO: change variable name */
   --ssssssssss: 0px 0px 200px rgba(49, 96, 153, 0.4);
 
   /* fonts */
