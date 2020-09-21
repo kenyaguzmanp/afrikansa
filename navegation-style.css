@@ -1,39 +1,15 @@
 .navigation {
-  margin: 83px;
-  margin-top: 40px;
+  margin: 3vw 7vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
-.logo {
-  position: relative;
+.logo { 
   width: 48px;
-  height: 48px;
 }
 /* TODO: this will be replace since it should be a logo image as an svg */
-.Ellipse {
-  position: absolute;
-  top: 16.67%;
-  width: 58.3%;
-  height: 58.3%;
-  background-color: var(--blue_02);
-  border: 2px solid var(--blue_02);
-  border-radius: 100%;
-  order: 1;
-}
-.Ellipse1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Gilroy;
-  font-size: 20px;
-  line-height: 28px;
-  color: var(--blue_02);
-  order: 2;
-  left: 33.3%;
-  background-color: var(--white);
-}
+
 .ic_menu {
   width: 24px;
   height: 16px;

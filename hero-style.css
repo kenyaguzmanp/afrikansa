@@ -1,50 +1,41 @@
 .hero {
-  display: flex;
-  flex-direction: column;
-  /*  TODO: replace with gradient variable */
   background: linear-gradient(
     0deg,
-    rgba(152, 195, 232, 0.2) 8.84%,
-    rgba(152, 195, 232, 0) 31.12%
+    rgba(152, 195, 232, 0.2) 8.84vw,
+    rgba(152, 195, 232, 0) 31.12vw
   );
-}
-.hero-down {
-  position: relative; /* TODO: REMOVE!!!! */
-  margin-left: 212px; /* TODO: this margin should be applied globally */
+  padding-left: var(--marginLeft); 
   display: flex;
-  flex-direction: row-reverse;
-  width: 1163px; /* TODO: modify using relative measures */
+  flex-direction: row;
+  width: 86vw;
 }
 .hero-text {
-  position: absolute; /* TODO: REMOVE!!!! */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  left: 0px; /* TODO: REMOVE!!!! */
 }
 .hero-title {
-  font-family: Galien; /* TODO: replace with font variable */
+  font-family: var(--fontCormorant); 
   margin: 70px 0px 32px 0px;
-  font-size: 64px; /* TODO: replace with font size variable */
+  font-size: var(--extraBigFontSize); 
   line-height: 74px;
-  width: 550px; /* TODO: modify using relative measures */
+  width: 37vw; 
 }
 .hero-p {
-  font-family: Gilroy; /* TODO: replace with font variable */
-  font-size: 16px; /* TODO: replace with font size variable */
+  font-family: var(--fontRoboto); 
+  font-size: var(--smallFontSize);
   line-height: 26px;
-  width: 425px; /* TODO: modify using relative measures */
+  width: 31vw; 
   margin: 0px 0px 71px 0px;
 }
 .buttoninactive {
   width: 220px;
   height: 56px;
   background-color: var(--blue_04);
-  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2); /* TODO: replace with shadow variable */
+  box-shadow: var(--boxShadowButton); /* TODO: replace with shadow variable */
   border-radius: 10px;
 }
 .hero-img {
-  position: relative; /* TODO: REMOVE!!!! */
   align-items: flex-end;
   margin: 0px 23px 56px 0px;
 }
