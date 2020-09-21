@@ -53,6 +53,9 @@
   /* fonts */
   --fontCormorant: 'Cormorant Infant', serif; /* Galien */
   --fontRoboto: 'Roboto', sans-serif; /* Gilroy */
+
+  /* margin */
+  --marginLeft: 16vw;  
 }
 /************************/
 /*****          *********/
