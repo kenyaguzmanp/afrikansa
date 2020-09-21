@@ -1,6 +1,5 @@
 .navigation {
-  margin: 8vw;
-  margin-top: 4vw;
+  margin: 3vw 7vw;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
