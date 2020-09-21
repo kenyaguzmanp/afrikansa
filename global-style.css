@@ -55,7 +55,10 @@
   --fontRoboto: 'Roboto', sans-serif; /* Gilroy */
 
   /* margin */
-  --marginLeft: 16vw;  
+  --marginLeft: 16vw; 
+
+  /* buttons */
+  --boxShadowButton:5px 10px 20px rgba(53, 110, 173, 0.2);
 }
 /************************/
 /*****          *********/
