@@ -71,6 +71,29 @@
 /* copies */
 
 /* buttons */
+.buttoninactive {
+  width: 220px;
+  height: 56px;
+  font-size: var(--smallFontSize);
+  font-family: var(--fontRoboto); 
+  color: var(--white);
+  background-color: var(--blue_04);
+  box-shadow: var(--boxShadowButton);
+  border: 0px;
+  border-radius: 10px;
+  outline:none;
+}
+.buttoninactive:hover {
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.6); 
+}
+.buttoninactive:focus {
+  color: black;
+  font-weight: bolder;
+  letter-spacing: 0.05em;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.6); 
+}
 
 .homepage {
   width: 100vw;

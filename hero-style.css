@@ -28,13 +28,6 @@
   width: 31vw; 
   margin: 0px 0px 71px 0px;
 }
-.buttoninactive {
-  width: 220px;
-  height: 56px;
-  background-color: var(--blue_04);
-  box-shadow: var(--boxShadowButton); /* TODO: replace with shadow variable */
-  border-radius: 10px;
-}
 .hero-img {
   align-items: flex-end;
   margin: 0px 23px 56px 0px;
