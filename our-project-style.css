@@ -17,7 +17,7 @@
   font-family: var(--fontRoboto);
   font-size: var(--bigFontSize);
   letter-spacing: 0.05em;
-  color: #1f3f68; /* TODO: replace with color variable */
+  color: var(--blue_01);
 }
 .ourFinishedProject-p {
   width: 540px;
@@ -25,7 +25,7 @@
   font-size: 16px; /* TODO: replace with font size variable */
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #1f3f68; /* TODO: replace with color variable */
+  color: var(--blue_01);
   opacity: 0.6;
 }
 .background-secondary-title1 {
@@ -44,7 +44,7 @@
   font-size: 28px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #ffffff; /* TODO: replace with color variable */
+  color: var(--white);
 }
 .medium-title-p {
   margin: 2% 5% 0 7%;
@@ -52,7 +52,7 @@
   font-size: 16px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #ffffff; /* TODO: replace with color variable */
+  color: var(--white);
   opacity: 0.8;
 }
 .background-secondary-title2y3 {
@@ -89,7 +89,7 @@ footer {
   justify-content: space-around;
   width: 1270px; /* TODO: replace with flex or other metrics */
   height: 869px; /* TODO: replace with flex or other metrics */
-  background: #316099;
+  background: var(--blue_02);
   border-radius: 0px 200px 0px 0px;
 }
 .container-part1 {
@@ -112,7 +112,7 @@ footer {
   font-size: var(--bigFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: var(--white);
 }
 .secundary-title-p {
   width: 460px; /* TODO: replace with flex or other metrics */
@@ -120,7 +120,7 @@ footer {
   font-size: 16px; /* TODO: replace with font size variable */
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #ffffff; /* TODO: replace with color variable */
+  color: var(--white);
   opacity: 0.6;
 }
  .Vector {
@@ -130,7 +130,7 @@ footer {
   width: 1073px;
   border-radius: 0px;
   opacity: 0.4;
-  border: 1px solid #FFFFFF;
+  border: 1px solid var(--white);
  }
   .container-part2 {
     display: flex;
@@ -156,7 +156,7 @@ footer {
     font-family: var(--fontRoboto);
     font-size: 28px;
     line-height: 46px;
-    color: #FFFFFF;
+    color: var(--white);
     margin: 0 0 0 8%;
   }
   .groupPart1 {
@@ -169,7 +169,7 @@ footer {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: var(--white);
     margin-right: 20px;
   }
   .textoaldalodeletras1 {
@@ -177,7 +177,7 @@ footer {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: var(--white);
     width: 50%;
   }
   .textoaldalodeletras2y3 {
@@ -185,7 +185,7 @@ footer {
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: var(--white);
   }
   .container-About-US {
     display: flex;
@@ -204,20 +204,20 @@ footer {
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: var(--white);
 }
 .groupPart2y3 {
   font-family: var(--fontRoboto);
   font-size: 16px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: var(--white);
 }
 .ultimop {
   font-family: var(--fontRoboto);
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: var(--white);
   opacity: 0.4;
   display: flex;
   width: 70%;
