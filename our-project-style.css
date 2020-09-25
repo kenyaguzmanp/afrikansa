@@ -14,14 +14,14 @@
   width: 860px;
 }
 .ourFinishedProject-title {
-  font-family: Gilroy; /* TODO: replace with font variable */
+  font-family: var(--fontRoboto);
   font-size: 36px; /* TODO: replace with font size variable */
   letter-spacing: 0.05em;
   color: #1f3f68; /* TODO: replace with color variable */
 }
 .ourFinishedProject-p {
   width: 540px;
-  font-family: Gilroy; /* TODO: replace with font variable */
+  font-family: var(--fontRoboto);
   font-size: 16px; /* TODO: replace with font size variable */
   line-height: 26px;
   letter-spacing: 0.05em;
@@ -40,7 +40,7 @@
 }
 .medium-title {
   margin: 5% 5% -1.5% 7%;
-  font-family: Gilroy; /* TODO: replace with font variable */
+  font-family: var(--fontRoboto);
   font-size: 28px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
@@ -48,7 +48,7 @@
 }
 .medium-title-p {
   margin: 2% 5% 0 7%;
-  font-family: Gilroy; /* TODO: replace with font variable */
+  font-family: var(--fontRoboto);
   font-size: 16px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
@@ -108,7 +108,7 @@ footer {
 }
 .secundary-title-white {
   width: 317px; /* TODO: replace with flex or other metrics */
-  font-family: Gilroy; /* TODO: replace with font variable */
+  font-family: var(--fontRoboto);
   font-size: 36px; /* TODO: replace with font size variable */
   line-height: 46px;
   letter-spacing: 0.05em;
@@ -116,7 +116,7 @@ footer {
 }
 .secundary-title-p {
   width: 460px; /* TODO: replace with flex or other metrics */
-  font-family: Gilroy; /* TODO: replace with font variable */
+  font-family: var(--fontRoboto);
   font-size: 16px; /* TODO: replace with font size variable */
   line-height: 26px;
   letter-spacing: 0.05em;
@@ -153,7 +153,7 @@ footer {
   .logo {
   }
   .afreanska {
-    font-family: Gilroy;
+    font-family: var(--fontRoboto);
     font-size: 28px;
     line-height: 46px;
     color: #FFFFFF;
@@ -165,7 +165,7 @@ footer {
     align-items: flex-start;
   }
   .letrasconpunto {
-    font-family: Gilroy;
+    font-family: var(--fontRoboto);
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -173,7 +173,7 @@ footer {
     margin-right: 20px;
   }
   .textoaldalodeletras1 {
-    font-family: Gilroy;
+    font-family: var(--fontRoboto);
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -181,7 +181,7 @@ footer {
     width: 50%;
   }
   .textoaldalodeletras2y3 {
-    font-family: Gilroy;
+    font-family: var(--fontRoboto);
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.05em;
@@ -200,20 +200,20 @@ footer {
     margin: 0 16% 0 0;
   }
 .group-About-and-follow-US {
-  font-family: Gilroy;
+  font-family: var(--fontRoboto);
   font-size: 20px;
   line-height: 30px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 .groupPart2y3 {
-  font-family: Gilroy;
+  font-family: var(--fontRoboto);
   font-size: 16px;
   letter-spacing: 0.05em;
   color: #FFFFFF;
 }
 .ultimop {
-  font-family: Gilroy;
+  font-family: var(--fontRoboto);
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.05em;
