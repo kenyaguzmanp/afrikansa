@@ -22,7 +22,7 @@
 .ourFinishedProject-p {
   width: 540px;
   font-family: var(--fontRoboto);
-  font-size: 16px; /* TODO: replace with font size variable */
+  font-size: var(--smallFontSize);
   line-height: 26px;
   letter-spacing: 0.05em;
   color: var(--blue_01);
@@ -49,7 +49,7 @@
 .medium-title-p {
   margin: 2% 5% 0 7%;
   font-family: var(--fontRoboto);
-  font-size: 16px; /* TODO: replace with font size variable */
+  font-size: var(--smallFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
   color: var(--white);
@@ -117,7 +117,7 @@ footer {
 .secundary-title-p {
   width: 460px; /* TODO: replace with flex or other metrics */
   font-family: var(--fontRoboto);
-  font-size: 16px; /* TODO: replace with font size variable */
+  font-size: var(--smallFontSize);
   line-height: 26px;
   letter-spacing: 0.05em;
   color: var(--white);
@@ -166,7 +166,7 @@ footer {
   }
   .letrasconpunto {
     font-family: var(--fontRoboto);
-    font-size: 16px;
+    font-size: var(--smallFontSize);
     line-height: 26px;
     letter-spacing: 0.05em;
     color: var(--white);
@@ -174,7 +174,7 @@ footer {
   }
   .textoaldalodeletras1 {
     font-family: var(--fontRoboto);
-    font-size: 16px;
+    font-size: var(--smallFontSize);
     line-height: 26px;
     letter-spacing: 0.05em;
     color: var(--white);
@@ -182,7 +182,7 @@ footer {
   }
   .textoaldalodeletras2y3 {
     font-family: var(--fontRoboto);
-    font-size: 16px;
+    font-size: var(--smallFontSize);
     line-height: 26px;
     letter-spacing: 0.05em;
     color: var(--white);
@@ -208,13 +208,13 @@ footer {
 }
 .groupPart2y3 {
   font-family: var(--fontRoboto);
-  font-size: 16px;
+  font-size: var(--smallFontSize);
   letter-spacing: 0.05em;
   color: var(--white);
 }
 .ultimop {
   font-family: var(--fontRoboto);
-  font-size: 16px;
+  font-size: var(--smallFontSize);
   line-height: 26px;
   letter-spacing: 0.05em;
   color: var(--white);
