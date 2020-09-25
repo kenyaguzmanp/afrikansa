@@ -158,7 +158,34 @@ footer {
     color: #FFFFFF;
     margin: 0 0 0 8%;
   }
-  .groupPart1
+  .groupPart1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .letrasconpunto {
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-right: 20px;
+  }
+  .textoaldalodeletras1 {
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    width: 50%;
+  }
+  .textoaldalodeletras2y3 {
+    font-family: Gilroy;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+  }
   /*.container-About-US
   .group-About-and-follow-US
   .groupPart2y3
