@@ -41,7 +41,7 @@
 .medium-title {
   margin: 5% 5% -1.5% 7%;
   font-family: var(--fontRoboto);
-  font-size: 28px; /* TODO: replace with font size variable */
+  font-size: var(--mediumFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
   color: var(--white);
@@ -154,7 +154,7 @@ footer {
   }
   .afreanska {
     font-family: var(--fontRoboto);
-    font-size: 28px;
+    font-size: var(--mediumFontSize);
     line-height: 46px;
     color: var(--white);
     margin: 0 0 0 8%;
