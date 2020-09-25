@@ -13,15 +13,13 @@
   align-items: center;
   width: 860px;
 }
-.secundary-title2 {
-  /* TODO: change class name to other more explicit */
+.ourFinishedProject-title {
   font-family: Gilroy; /* TODO: replace with font variable */
   font-size: 36px; /* TODO: replace with font size variable */
   letter-spacing: 0.05em;
   color: #1f3f68; /* TODO: replace with color variable */
 }
-.secundary-title2-p {
-  /* TODO: change class name to other more explicit */
+.ourFinishedProject-p {
   width: 540px;
   font-family: Gilroy; /* TODO: replace with font variable */
   font-size: 16px; /* TODO: replace with font size variable */
