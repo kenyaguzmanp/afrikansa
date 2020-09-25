@@ -15,7 +15,7 @@
 }
 .ourFinishedProject-title {
   font-family: var(--fontRoboto);
-  font-size: 36px; /* TODO: replace with font size variable */
+  font-size: var(--bigFontSize);
   letter-spacing: 0.05em;
   color: #1f3f68; /* TODO: replace with color variable */
 }
@@ -109,7 +109,7 @@ footer {
 .secundary-title-white {
   width: 317px; /* TODO: replace with flex or other metrics */
   font-family: var(--fontRoboto);
-  font-size: 36px; /* TODO: replace with font size variable */
+  font-size: var(--bigFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
   color: #ffffff;
