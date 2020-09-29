@@ -1,15 +1,15 @@
 .what-we-do {
-  margin-top: 180px;
+  margin: 180px 80px 0px 180px;
   display: flex;
   flex-direction: row;
   align-self: center;
-  padding-left: var(--marginLeft);
-  padding-right: var(--marginLeft);
+  flex-wrap: wrap;
 }
 .what-we-do-text {
   justify-self: flex-start;
   align-self: flex-start;
   width: 310px;
+  margin-bottom: 67px;
   line-height: 46px;
   font-family: var(--fontRoboto);
   font-size: var(--bigFontSize);
@@ -22,35 +22,30 @@
 .cards-what-we-do {
   box-shadow: var(--shadow);
   border-radius: 10px;
-  margin: 137px 80px;
+  margin: 100px 50px;
   padding: 48px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
-.cards-what-we-do-1 {
+.cards-margin0px{
   padding-top: 0px;
-  margin: 0px 0px 100px 20px;
+  margin: 0px ;
 }
-.cards-what-we-do-2{
-  margin: 0px 0px 0px 20px;
-}
-.img-cards-what-we-do0 {
+.img-cards-0{
   margin-left: 26px;
   margin-bottom: 56px;
 }
-
-.img-cards-what-we-do01 {
+.img-cards-01 {
   margin-left: 30px;
   margin-bottom: 50px;
 }
-
-.img-cards-what-we-do02 {
+.img-cards-02 {
   margin-left: 52px;
   margin-bottom: 56px;
 }
 .titulo-cards-what-we-do {
-  margin: 0px 0px 16px 0px;
+  margin: 0px;
   width: 257px;
   font-family: var(--fontRoboto);
   font-size: var(--regularFontSize);
@@ -58,26 +53,26 @@
   color: var(--blue_01);
 }
 .p-cards-what-we-do {
-  margin-bottom: 32px;
+  margin:16px 0px 32px 0px;
   width: 284px;
-  font-family: var(--fontRoboto); 
+  font-family: var(--fontRoboto);
   font-size: var(--smallFontSize);
   line-height: 26px;
   color: var(--blue_01);
-  opacity: 0.6;
+  opacity: 0.7;
 }
 .anchor-what-we-do {
+  position: relative;
   color: var(--blue_04);
   width: 190px;
   display: flex;
   flex-direction: row;
-  justify-content: baseline;
   text-decoration: none;
 }
 .text-anchor-what-we{
   display: flex;
-  font-family: var(--fontRoboto); 
-  font-size: var(--extraSmallFontSize); 
+  font-family: var(--fontRoboto);
+  font-size: var(--extraSmallFontSize);
   line-height: 30px;
   width: 80px;
   height: 30px;
