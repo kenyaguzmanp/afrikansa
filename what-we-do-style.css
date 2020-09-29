@@ -79,9 +79,24 @@
   color: var(--blue_04);
 }
 .flecha-anchor-what-we{
+  position: absolute;
   width: 80px;
-  padding: 7px;
+  padding: 7px 7px 7px 87px;
+  opacity: .8;
 }
-.animacion-vector{
-
+.flecha-anchor-what-we:hover{
+  animation-name: animationVector;
+  animation-duration:1s;
+  animation-iteration-count: 100;
+  animation-timing-function: ease-out;
+}
+@keyframes animationVector{
+  0% {
+    padding-left: 87px;
+  }
+  100% {
+    padding-left: 127px;
+    width: 40px;
+    opacity: 1;
+  }
 }
