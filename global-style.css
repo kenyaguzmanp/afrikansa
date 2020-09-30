@@ -82,6 +82,7 @@
   border: 0px;
   border-radius: 10px;
   outline:none;
+  transition: box-shadow 0.5s ease-in 0.2s, letter-spacing 0.5s ease-in 0.2s, font-weight 0.5s ease-in 0.2s;
 }
 .buttoninactive:hover {
   font-weight: bolder;

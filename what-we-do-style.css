@@ -27,6 +27,10 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  transition: box-shadow 0.5s ease-in 0.2s;
+}
+.cards-what-we-do:hover {
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.6); 
 }
 .cards-margin0px{
   padding-top: 0px;
