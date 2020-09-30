@@ -7,15 +7,21 @@
 }
 .logo { 
   width: 48px;
+  transition: all 0.5s linear 0.1s;
 }
-/* TODO: this will be replace since it should be a logo image as an svg */
-
+.logo:hover{
+  transform: scale(1.3);
+}
 .ic_menu {
   width: 24px;
   height: 16px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  transition: all 0.5s linear 0.1s;
+}
+.ic_menu:hover{
+  transform: scale(1.5);
 }
 .barra-azul {
   width: 24px;
