@@ -4,132 +4,221 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  }
-  .container-our-project {
+}
+.container-our-project {
   margin: 10% 0 10% -9%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 860px;    
-  }
-  .secundary-title2 {
-  font-family: Gilroy;
-  font-size: 36px;
+  width: 860px;
+}
+.ourFinishedProject-title {
+  font-family: var(--fontRoboto);
+  font-size: var(--bigFontSize);
   letter-spacing: 0.05em;
-  color: #1F3F68;
-  }
-  .secundary-title2-p {
+  color: var(--blue_01);
+}
+.ourFinishedProject-p {
   width: 540px;
-  font-family: Gilroy;
-  font-size: 16px;
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #1F3F68;
+  color: var(--blue_01);
   opacity: 0.6;
-  }
-  .background-secondary-title1 {
+}
+.background-secondary-title1 {
   margin: 0 0 10% 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  background-image: url(Mask\ Group\ 1.png);
+  background-image: url(maskgroup1.png);
   width: 940px;
   height: 417px;
-  }
-  .medium-title {
+}
+.medium-title {
   margin: 5% 5% -1.5% 7%;
-  font-family: Gilroy;
-  font-size: 28px;
+  font-family: var(--fontRoboto);
+  font-size: var(--mediumFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
-  }
-  .medium-title-p {
+  color: var(--white);
+}
+.medium-title-p {
   margin: 2% 5% 0 7%;
-  font-family: Gilroy;
-  font-size: 16px;
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: var(--white);
   opacity: 0.8;
-  }
-  .background-secondary-title2y3 {
+}
+.background-secondary-title2y3 {
+  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 940px;
-  }
-  .background-secondary-title2 {
+}
+.background-secondary-title2 {
+  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url(Mask\ Group\ 2.png);
+  background-image: url(maskgroup2.png);
   width: 422px;
   height: 417px;
-  }
-  .background-secondary-title3 {
+}
+.background-secondary-title3 {
+  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url(Mask\ Group\ 3.png);
+  background-image: url(maskgroup3.png);
   width: 422px;
   height: 417px;
-  }
-  footer {
+}
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  Width:1270px;
-  Height:869px;
-  background: #316099;
+  width: 1270px; /* TODO: replace with flex or other metrics */
+  height: 869px; /* TODO: replace with flex or other metrics */
+  background: var(--blue_02);
   border-radius: 0px 200px 0px 0px;
-  }
-  .container-part1 {
+}
+.container-part1 {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 70%;
-  }
-  .container-intersted-to-woek {
+  margin: 5% 0 5% 0;
+}
+.container-intersted-to-woek {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
-  }
-  .secundary-title-white {
-  width: 317px;
-  font-family: Gilroy;
-  font-size: 36px;
+}
+.secundary-title-white {
+  width: 317px; /* TODO: replace with flex or other metrics */
+  font-family: var(--fontRoboto);
+  font-size: var(--bigFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
-  }
-  .secundary-title-p {
-  width: 460px;
-  font-family: Gilroy;
-  font-size: 16px;
+  color: var(--white);
+}
+.secundary-title-p {
+  width: 460px; /* TODO: replace with flex or other metrics */
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
   line-height: 26px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: var(--white);
   opacity: 0.6;
+}
+ .Vector {
+  display: flex;
+  align-self: flex-start;
+  height: 0px;
+  width: 1073px;
+  border-radius: 0px;
+  opacity: 0.4;
+  border: 1px solid var(--white);
+ }
+  .container-part2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
   }
-  /* .Vector
-  .container-part2
-  .container-Afreanska
-  .container-logo-and-afreanska
-  .logo
-  .Ellipse
-  .Ellipse1
-  .afreanska
-  .groupPart1
-  .container-About-US
-  .group-About-and-follow-US
-  .groupPart2y3
-  .container-follow-US
-  .ultimop */
+  .container-Afreanska {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 -5% 0 0;
+  }
+  .container-logo-and-afreanska {
+    display: flex;
+    align-items: baseline;
+  }
+  .logo {
+  }
+  .afreanska {
+    font-family: var(--fontRoboto);
+    font-size: var(--mediumFontSize);
+    line-height: 46px;
+    color: var(--white);
+    margin: 0 0 0 8%;
+  }
+  .groupPart1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .letrasconpunto {
+    font-family: var(--fontRoboto);
+    font-size: var(--smallFontSize);
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    margin-right: 20px;
+  }
+  .textoaldalodeletras1 {
+    font-family: var(--fontRoboto);
+    font-size: var(--smallFontSize);
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+    width: 50%;
+  }
+  .textoaldalodeletras2y3 {
+    font-family: var(--fontRoboto);
+    font-size: var(--smallFontSize);
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: var(--white);
+  }
+  .container-About-US {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 5% 0 0;
+  }
+  .container-follow-US {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 16% 0 0;
+  }
+.group-About-and-follow-US {
+  font-family: var(--fontRoboto);
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+}
+.groupPart2y3 {
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
+  letter-spacing: 0.05em;
+  color: var(--white);
+}
+.ultimop {
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  opacity: 0.4;
+  display: flex;
+  width: 70%;
+}
