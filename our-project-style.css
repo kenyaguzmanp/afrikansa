@@ -95,7 +95,7 @@
   align-items: center;
   justify-content: space-between;
   width: 70%;
-  margin: 10% 0 5% 0;
+  margin: 10% 0 0 0;
 }
 .container-intersted-to-woek {
   display: flex;
@@ -104,15 +104,16 @@
   justify-content: space-between;
 }
 .secundary-title-white {
-  width: 317px; /* TODO: replace with flex or other metrics */
+  width: 40%; 
   font-family: var(--fontRoboto);
   font-size: var(--bigFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
   color: var(--white);
+  padding: 0 0 4% 0;
 }
 .secundary-title-p {
-  width: 460px; /* TODO: replace with flex or other metrics */
+  width: 60%; 
   font-family: var(--fontRoboto);
   font-size: var(--smallFontSize);
   line-height: 26px;
