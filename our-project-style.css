@@ -83,7 +83,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%; /* TODO: replace with flex or other metrics */ /* TODO: replace with flex or other metrics */
+  width: 70%;
   background: var(--blue_02);
   border-radius: 0px 200px 0px 0px;
   padding: 0 0 0 5%;
