@@ -137,18 +137,18 @@
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    margin: 0 0 5% 0;
   }
   .container-Afreanska {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 0 -5% 0 0;
+    width: 80%;
   }
   .container-logo-and-afreanska {
     display: flex;
     align-items: baseline;
+    margin: 0 0 5% 0;
   }
   .logo {
   }
@@ -163,6 +163,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0 0 5% 0;
   }
   .letrasconpunto {
     font-family: var(--fontRoboto);
@@ -179,6 +180,8 @@
     letter-spacing: 0.05em;
     color: var(--white);
     width: 50%;
+    text-decoration: none;
+    margin: 3% 0 0 0;
   }
   .textoaldalodeletras2y3 {
     font-family: var(--fontRoboto);
@@ -186,18 +189,22 @@
     line-height: 26px;
     letter-spacing: 0.05em;
     color: var(--white);
+    text-decoration: none;
+    margin: 8% 0 0 0;
   }
   .container-About-US {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 5% 0 0;
+    margin: 0 11% 0 0;
+    width: 30%;
   }
   .container-follow-US {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 16% 0 0;
+    margin: 0 10% 0 0;
+    width: 30%;
   }
 .group-About-and-follow-US {
   font-family: var(--fontRoboto);
@@ -205,12 +212,15 @@
   line-height: 30px;
   letter-spacing: 0.05em;
   color: var(--white);
+  margin: 0 0 15% 0;
 }
 .groupPart2y3 {
   font-family: var(--fontRoboto);
   font-size: var(--smallFontSize);
   letter-spacing: 0.05em;
   color: var(--white);
+  margin: 8% 0 8% 0;
+  text-decoration: none;
 }
 .ultimop {
   font-family: var(--fontRoboto);
@@ -221,4 +231,5 @@
   opacity: 0.4;
   display: flex;
   width: 70%;
+  margin: 3% 0 4% 0;
 }
