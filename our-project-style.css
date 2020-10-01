@@ -56,14 +56,12 @@
   opacity: 0.8;
 }
 .container-Sparklite-App-and-Car-Rapetition-App {
-  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 940px;
 }
 .container-Sparklite-App {
-  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -73,7 +71,6 @@
   height: 417px;
 }
 .container-Car-Rapetition-App {
-  /* TODO: change class name to other more explicit */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
