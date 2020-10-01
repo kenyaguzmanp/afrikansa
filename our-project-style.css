@@ -28,7 +28,7 @@
   color: var(--blue_01);
   opacity: 0.6;
 }
-.background-secondary-title1 {
+.container-smart-home-installation {
   margin: 0 0 10% 0;
   display: flex;
   flex-direction: column;
@@ -55,15 +55,13 @@
   color: var(--white);
   opacity: 0.8;
 }
-.background-secondary-title2y3 {
-  /* TODO: change class name to other more explicit */
+.container-Sparklite-App-and-Car-Rapetition-App {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 940px;
 }
-.background-secondary-title2 {
-  /* TODO: change class name to other more explicit */
+.container-Sparklite-App {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -72,8 +70,7 @@
   width: 422px;
   height: 417px;
 }
-.background-secondary-title3 {
-  /* TODO: change class name to other more explicit */
+.container-Car-Rapetition-App {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -82,15 +79,15 @@
   width: 422px;
   height: 417px;
 }
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  width: 1270px; /* TODO: replace with flex or other metrics */
-  height: 869px; /* TODO: replace with flex or other metrics */
+  width: 70%;
   background: var(--blue_02);
   border-radius: 0px 200px 0px 0px;
+  padding: 0 0 0 5%;
+  margin: 0 -10% 0 10%;
 }
 .container-part1 {
   display: flex;
@@ -98,7 +95,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 70%;
-  margin: 5% 0 5% 0;
+  margin: 10% 0 0 0;
 }
 .container-intersted-to-woek {
   display: flex;
@@ -107,15 +104,16 @@ footer {
   justify-content: space-between;
 }
 .secundary-title-white {
-  width: 317px; /* TODO: replace with flex or other metrics */
+  width: 40%; 
   font-family: var(--fontRoboto);
   font-size: var(--bigFontSize);
   line-height: 46px;
   letter-spacing: 0.05em;
   color: var(--white);
+  padding: 0 0 4% 0;
 }
 .secundary-title-p {
-  width: 460px; /* TODO: replace with flex or other metrics */
+  width: 60%; 
   font-family: var(--fontRoboto);
   font-size: var(--smallFontSize);
   line-height: 26px;
@@ -126,11 +124,12 @@ footer {
  .Vector {
   display: flex;
   align-self: flex-start;
-  height: 0px;
-  width: 1073px;
+  height: 0%;
+  width: 100%;
   border-radius: 0px;
   opacity: 0.4;
   border: 1px solid var(--white);
+  margin: 10% 0 10% -10%;
  }
   .container-part2 {
     display: flex;
@@ -142,13 +141,14 @@ footer {
   .container-Afreanska {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: flex-start;
     margin: 0 -5% 0 0;
+    width: 80%;
   }
   .container-logo-and-afreanska {
     display: flex;
     align-items: baseline;
+    margin: 0 0 5% 0;
   }
   .logo {
   }
@@ -163,6 +163,7 @@ footer {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: 0 0 5% 0;
   }
   .letrasconpunto {
     font-family: var(--fontRoboto);
@@ -179,6 +180,8 @@ footer {
     letter-spacing: 0.05em;
     color: var(--white);
     width: 50%;
+    text-decoration: none;
+    margin: 3% 0 0 0;
   }
   .textoaldalodeletras2y3 {
     font-family: var(--fontRoboto);
@@ -186,18 +189,22 @@ footer {
     line-height: 26px;
     letter-spacing: 0.05em;
     color: var(--white);
+    text-decoration: none;
+    margin: 8% 0 0 0;
   }
   .container-About-US {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 5% 0 0;
+    margin: 0 11% 0 0;
+    width: 30%;
   }
   .container-follow-US {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin: 0 16% 0 0;
+    margin: 0 10% 0 0;
+    width: 30%;
   }
 .group-About-and-follow-US {
   font-family: var(--fontRoboto);
@@ -205,12 +212,15 @@ footer {
   line-height: 30px;
   letter-spacing: 0.05em;
   color: var(--white);
+  margin: 0 0 15% 0;
 }
 .groupPart2y3 {
   font-family: var(--fontRoboto);
   font-size: var(--smallFontSize);
   letter-spacing: 0.05em;
   color: var(--white);
+  margin: 8% 0 8% 0;
+  text-decoration: none;
 }
 .ultimop {
   font-family: var(--fontRoboto);
@@ -221,4 +231,5 @@ footer {
   opacity: 0.4;
   display: flex;
   width: 70%;
+  margin: 3% 0 4% 0;
 }
