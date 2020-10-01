@@ -79,15 +79,15 @@
   width: 422px;
   height: 417px;
 }
-footer {
+.footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  width: 1270px; /* TODO: replace with flex or other metrics */
-  height: 869px; /* TODO: replace with flex or other metrics */
+  width: 70%; /* TODO: replace with flex or other metrics */ /* TODO: replace with flex or other metrics */
   background: var(--blue_02);
   border-radius: 0px 200px 0px 0px;
+  padding: 0 0 0 5%;
+  margin: 0 -10% 0 10%;
 }
 .container-part1 {
   display: flex;
@@ -95,7 +95,7 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 70%;
-  margin: 5% 0 5% 0;
+  margin: 10% 0 5% 0;
 }
 .container-intersted-to-woek {
   display: flex;
@@ -123,11 +123,12 @@ footer {
  .Vector {
   display: flex;
   align-self: flex-start;
-  height: 0px;
-  width: 1073px;
+  height: 0%;
+  width: 100%;
   border-radius: 0px;
   opacity: 0.4;
   border: 1px solid var(--white);
+  margin: 10% 0 10% -10%;
  }
   .container-part2 {
     display: flex;
@@ -135,6 +136,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     width: 70%;
+    margin: 0 0 5% 0;
   }
   .container-Afreanska {
     display: flex;
