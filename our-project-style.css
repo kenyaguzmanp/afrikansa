@@ -33,21 +33,22 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end;
-  width: 982px;
-  height: 424px;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 .fondo-smart-home-installation {
-  background-image: url(alberto-castillo-q-mx4mSkK9zeo-unsplash.png);
+  display: flex;
+  justify-content: flex-end;
+  width: 940px;
+  height: 417px;
+  background: url(maskedImage.png);
   background-repeat: no-repeat;
+  transition: background-image 0.2s ease-in-out;
 }
-.rectangulo-smart-home-intallation {
-  width: 982px;
-  height: 424px;
-  background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+.fondo-smart-home-installation:hover {
+  background-image: url(maskedImage2.png);
 }
+
 .detalles-esquina-izquierda {
   opacity: 0.6;
 }
@@ -119,7 +120,7 @@
   justify-content: space-between;
 }
 .secundary-title-white {
-  width: 40%; 
+  width: 40%;
   font-family: var(--fontRoboto);
   font-size: var(--bigFontSize);
   line-height: 46px;
@@ -128,7 +129,7 @@
   padding: 0 0 4% 0;
 }
 .secundary-title-p {
-  width: 60%; 
+  width: 60%;
   font-family: var(--fontRoboto);
   font-size: var(--smallFontSize);
   line-height: 26px;
@@ -136,7 +137,7 @@
   color: var(--white);
   opacity: 0.6;
 }
- .Vector {
+.Vector {
   display: flex;
   align-self: flex-start;
   height: 0%;
@@ -145,82 +146,82 @@
   opacity: 0.4;
   border: 1px solid var(--white);
   margin: 10% 0 10% -10%;
- }
-  .container-part2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    width: 70%;
-  }
-  .container-Afreanska {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 -5% 0 0;
-    width: 80%;
-  }
-  .container-logo-and-afreanska {
-    display: flex;
-    align-items: baseline;
-    margin: 0 0 5% 0;
-  }
-  .logo {
-  }
-  .afreanska {
-    font-family: var(--fontRoboto);
-    font-size: var(--mediumFontSize);
-    line-height: 46px;
-    color: var(--white);
-    margin: 0 0 0 8%;
-  }
-  .groupPart1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin: 0 0 5% 0;
-  }
-  .letrasconpunto {
-    font-family: var(--fontRoboto);
-    font-size: var(--smallFontSize);
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: var(--white);
-    margin-right: 20px;
-  }
-  .textoaldalodeletras1 {
-    font-family: var(--fontRoboto);
-    font-size: var(--smallFontSize);
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: var(--white);
-    width: 50%;
-    text-decoration: none;
-    margin: 3% 0 0 0;
-  }
-  .textoaldalodeletras2y3 {
-    font-family: var(--fontRoboto);
-    font-size: var(--smallFontSize);
-    line-height: 26px;
-    letter-spacing: 0.05em;
-    color: var(--white);
-    text-decoration: none;
-    margin: 8% 0 0 0;
-  }
-  .container-About-US {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 11% 0 0;
-    width: 30%;
-  }
-  .container-follow-US {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin: 0 10% 0 0;
-    width: 30%;
-  }
+}
+.container-part2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+}
+.container-Afreanska {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 -5% 0 0;
+  width: 80%;
+}
+.container-logo-and-afreanska {
+  display: flex;
+  align-items: baseline;
+  margin: 0 0 5% 0;
+}
+.logo {
+}
+.afreanska {
+  font-family: var(--fontRoboto);
+  font-size: var(--mediumFontSize);
+  line-height: 46px;
+  color: var(--white);
+  margin: 0 0 0 8%;
+}
+.groupPart1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 0 5% 0;
+}
+.letrasconpunto {
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  margin-right: 20px;
+}
+.textoaldalodeletras1 {
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  width: 50%;
+  text-decoration: none;
+  margin: 3% 0 0 0;
+}
+.textoaldalodeletras2y3 {
+  font-family: var(--fontRoboto);
+  font-size: var(--smallFontSize);
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: var(--white);
+  text-decoration: none;
+  margin: 8% 0 0 0;
+}
+.container-About-US {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 11% 0 0;
+  width: 30%;
+}
+.container-follow-US {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 10% 0 0;
+  width: 30%;
+}
 .group-About-and-follow-US {
   font-family: var(--fontRoboto);
   font-size: 20px;
