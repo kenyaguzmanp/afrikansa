@@ -6,7 +6,7 @@
   justify-content: space-evenly;
 }
 .container-our-project {
-  margin: 10% 0 10% -9%;
+  margin: 10% 0 10% -3%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -34,9 +34,22 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-end;
-  background-image: url(maskgroup1.png);
-  width: 940px;
-  height: 417px;
+  width: 982px;
+  height: 424px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.fondo-smart-home-installation {
+  background-image: url(alberto-castillo-q-mx4mSkK9zeo-unsplash.png);
+  background-repeat: no-repeat;
+}
+.rectangulo-smart-home-intallation {
+  width: 982px;
+  height: 424px;
+  background: linear-gradient(89.99deg, #1F3F68 3.62%, rgba(31, 63, 104, 0.37) 97.78%);
+}
+.detalles-esquina-izquierda {
+  opacity: 0.6;
 }
 .medium-title {
   margin: 5% 5% -1.5% 7%;
@@ -69,6 +82,7 @@
   background-image: url(maskgroup2.png);
   width: 422px;
   height: 417px;
+  cursor: pointer;
 }
 .container-Car-Rapetition-App {
   display: flex;
@@ -78,6 +92,7 @@
   background-image: url(maskgroup3.png);
   width: 422px;
   height: 417px;
+  cursor: pointer;
 }
 .footer {
   display: flex;
@@ -213,6 +228,7 @@
   letter-spacing: 0.05em;
   color: var(--white);
   margin: 0 0 15% 0;
+  cursor: pointer;
 }
 .groupPart2y3 {
   font-family: var(--fontRoboto);
@@ -232,4 +248,5 @@
   display: flex;
   width: 70%;
   margin: 3% 0 4% 0;
+  cursor: pointer;
 }
